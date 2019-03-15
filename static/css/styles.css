@@ -1,0 +1,12 @@
+h1{
+    text-transform: uppercase;
+    background-color: darkcyan;
+    color: #f5f5f5;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  a{
+    color:whitesmoke;
+    text-decoration: none;
+  }
