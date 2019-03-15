@@ -23,3 +23,23 @@ class CategoryTestCase(TestCase):
         categories = Category.objects.all()
         self.assertTrue(len(categories) == 0)
 
+class LocationTestCase(TestCase):
+    def setUp(self):
+        self.kigali = Location(name = 'Kigali')
+
+    def test_instance(self):
+        self.assertTrue(isinstance(self.kigali, Location))
+
+    def tearDown(self):
+        Location.objects.all().delete()
+
+    def test_save_location(self):
+        self.kigali.save_location()
+        locations = Location.objects.all()
+        self.assertTrue(len(locations) > 0)
+
+    def test_delete_location(self, event = None):
+        self.kigali.delete_location('Kigali')
+        locations = Location.objects.all()
+        self.assertTrue(len(locations) == 0)
+
