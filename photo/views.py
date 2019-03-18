@@ -12,9 +12,10 @@ def display_location(request,location_id):
     try:
         location = Location.objects.get(id = location_id)
         images = Image.objects.filter(image_location = location.id)
+        locations = Location.objects.all()
     except:
         raise Http404()
-    return render(request,'location.html',{'location':location,'images':images})
+    return render(request,'location.html',{'location':location,'images':images, 'locations':locations})
 
 
 def search_category(request):
