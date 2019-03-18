@@ -16,7 +16,7 @@ A personal gallery application that one displays their photos for others to see 
 
      **Output Example**: Redirected to a page with photos taken in Rwanda
 
-* The program should navigate home page when the app name is clicked on the navbar:
+* The program should navigate home page when home is clicked on the navbar:
 
      **Input Example**: Click on **Home** on the navigation bar
 
