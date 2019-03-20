@@ -24,9 +24,9 @@ A personal gallery application that one displays their photos for others to see 
 
 * The program should navigate to the searched category when a category is entered on the navigation search:
 
-    **Input Example**: Enter music in the navigation search
+    **Input Example**: Enter travel in the navigation search
 
-    **Output Example**: Redirected to the page with photos on music category
+    **Output Example**: Redirected to the page with photos on travel category
 
 ## Setup/Installation Requirements
 To start using this project use the following commands:
