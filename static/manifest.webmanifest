@@ -1,0 +1,21 @@
+{
+    "name": "Gororoka App",
+    "short_name": "Gororoka",
+    "start_url": "http://localhost:8000/",
+    "display": "standalone",
+    "orientation": "portrait",
+    "background_color": "#fff",
+    "description": "Application for help diabetic patients.",
+    "icons": [
+    {
+    "src": "avatar.png",
+    "sizes": "2700x2700",
+    "type": "image/png"
+},
+{
+"src": "avatar_02.png",
+"sizes": "192x192",
+"type": "image/png"
+}
+]
+}
